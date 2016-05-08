@@ -1,0 +1,28 @@
+{
+  "name": "eagle2geojson",
+  "version": "0.0.1",
+  "description": "Convert Eagle 7 files (.sch, .brd) to geojson for use in web map apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- --reporter spec ./test/indexTest.js --board ./schema/mainboard.eagle7.brd --schema ./schema/mainboard.eagle7.sch --output ./schema/test.geojson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x0xb0x/x0xb0x.github.io.git"
+  },
+  "author": "Rein van t Veer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x0xb0x/x0xb0x.github.io/issues"
+  },
+  "homepage": "http://x0xb0x.org",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "xml2js": "^0.4.16",
+    "yargs": "^4.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
