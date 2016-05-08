@@ -1,13 +1,13 @@
 {
-  "C": "http://dbpedia.org/resource/Capacitor",
-  "D": "http://dbpedia.org/resource/Diode",
-  "DIN": "http://dbpedia.org/resource/DIN_connector",
-  "IC": "http://dbpedia.org/resource/Integrated_circuit",
-  "J": "http://dbpedia.org/resource/Jumper_wire",
-  "Q": "http://dbpedia.org/resource/Transistor",
-  "R": "http://dbpedia.org/resource/Resistor",
-  "S": "http://dbpedia.org/resource/Switch",
-  "SW": "http://dbpedia.org/resource/Toggle_switch",
-  "TM": "http://dbpedia.org/resource/Trim_pot",
-  "VR": "http://dbpedia.org/resource/Variable_resistor"
+  "C": "dbpedia:Capacitor",
+  "D": "dbpedia:Diode",
+  "DIN": "dbpedia:DIN_connector",
+  "IC": "dbpedia:Integrated_circuit",
+  "J": "dbpedia:Jumper_wire",
+  "Q": "dbpedia:Transistor",
+  "R": "dbpedia:Resistor",
+  "S": "dbpedia:Switch",
+  "SW": "dbpedia:Toggle_switch",
+  "TM": "dbpedia:Trim_pot",
+  "VR": "dbpedia:Variable_resistor"
 }
